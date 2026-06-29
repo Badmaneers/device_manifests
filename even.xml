@@ -4,6 +4,7 @@
     <remote name="badmaneers" fetch="https://github.com/Badmaneers" />
     <remote name="lineage" fetch="https://github.com/LineageOS" />
     <remote name="techyminati" fetch="https://github.com/techyminati" />
+    <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
 
     <!-- Device / Kernel -->
     <project path="device/realme/even" name="device_realme_even_rui4" remote="badmaneers" revision="axion" />
@@ -14,7 +15,7 @@
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-23.2" />
 
     <!-- Hardware -->
-    <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage" revision="lineage-23.2" />
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="crdroid" revision="16.0" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-23.2" />
 
     <!-- IMS -->
